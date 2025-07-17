@@ -16,7 +16,7 @@
 
 **Commands used**
 - docker build -t my-new-image -f dockerfile_1 .
-- docker run -d --name my-app --network mynet -p 8888:8081 my-new-image
+- docker run -d --name my-app -p 8888:8081 my-new-image
 
 **ngrok for accessing the application for different dns**
 - brew installl ngrok
